@@ -1,0 +1,973 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/home.css">
+	<script src="../../router/jquery.min.js"></script>
+	<script src="../../router/popper.min.js"></script>
+	<script src="../../router/bootstrap.min.js"></script>
+</head>
+<body>
+	<!--引入头 -->
+	<div class="container">
+		<iframe src="./header.html" frameborder="0" class="header" scrolling="no"></iframe>
+	</div>
+	<!-- 轮播图 -->
+		<div class="container" id="slideshow">
+			<ul class="showImg" style="transition:all .3s linear">
+				<li><a href="JavaScript:;"><img src="../img/sildeshow/61.jpg"></a></li>
+				<li><a href="JavaScript:;"><img src="../img/sildeshow/hukou.png"></a></li>
+				<li><a href="JavaScript:;"><img src="../img/sildeshow/daizhe.jpg"></a></li>
+				<li><a href="JavaScript:;"><img src="../img/sildeshow/hua.jpg"></a></li>
+				<li><a href="JavaScript:;"><img src="../img/sildeshow/61.jpg"></a></li>
+			</ul>
+			<ul class="showIdex">
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+			</ul>
+			<div class="nextImg"><a href="JavaScript:;" onclick="show2()"><p>&gt;</p></a></div>
+			<div class="priorImg"><a href="JavaScript:;" onclick="show1()"><p>&lt;</p></a></div>
+		</div>
+	<!--  -->
+	 <!-- 最近更新  往后的热门推荐都是一样的布局-->
+	 <div class="container">
+		 <!-- 导航 -->
+		<div class="first">
+			<h2 class="back1">
+				最近更新 今日更新71部
+			</h2>
+			<ul>
+				<li>电影</li>
+				<li>连续剧</li>
+				<li>综艺</li>
+				<li>动漫</li>
+			</ul>
+		</div>
+		<!-- 影片列表 -->
+		<div class="last">
+			<ul>
+				<!--===== 1===== -->
+				<li>
+					<div>
+						<div class="qq">
+							<p>百变达人</p>
+							<p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+						</div>
+						<div>
+								<img src="../img/video/百变达人.png">
+						</div>
+					</div>
+					<div>
+						<p class="margin-bottom:5px;">百变达人</p>
+						<p class="color-3a4a5a font-12">主演：潘玮柏 刘宇宇侯佩琴</p>
+					</div>
+				</li>
+				<!--=====2===== -->
+				<li>
+						<div>
+							<div class="qq">
+								<p>消灭都市</p>
+								<p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							</div>
+							<div>
+									<img src="../img/video/暂无图片.png">
+							</div>
+						</div>
+						<div>
+							<p class="margin-bottom:5px;">消灭都市</p>
+							<p class="color-3a4a5a font-12">主演：花泽香菜....</p>
+						</div>
+					</li>
+				<!--=====3===== -->
+				<li>
+						<div>
+							<div class="qq">
+								<p>拾又之国</p>
+								<p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							</div>
+							<div>
+									<img src="../img/video/暂无图片.png">
+							</div>
+						</div>
+						<div>
+							<p class="margin-bottom:5px;">拾又之国</p>
+							<p class="color-3a4a5a font-12">主演：河西健吾.....</p>
+						</div>
+					</li>
+				<!--===== 4===== -->
+				<li>
+						<div>
+							<div class="qq">
+								<p>我们的师傅</p>
+								<p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							</div>
+							<div>
+									<img src="../img/video/我们的师傅.png">
+							</div>
+						</div>
+						<div>
+							<p class="margin-bottom:5px;">我们的师傅</p>
+							<p class="color-3a4a5a font-12">主演：暂无</p>
+						</div>
+					</li>
+				<!--===== 5===== -->
+				<li>
+						<div>
+							<div class="qq">
+								<p>密室大逃脱</p>
+								<p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							</div>
+							<div>
+									<img src="../img/video/暂无图片.png">
+							</div>
+						</div>
+						<div>
+							<p class="margin-bottom:5px;">百变达人</p>
+							<p class="color-3a4a5a font-12">主演：潘玮柏 刘宇宇侯佩琴</p>
+						</div>
+					</li>
+				<!--===== 6===== -->
+				<li>
+						<div>
+							<div class="qq">
+								<p>少年的秘密</p>
+								<p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							</div>
+							<div>
+									<img src="../img/video/少年的秘密日记.jpg">
+							</div>
+						</div>
+						<div>
+							<p class="margin-bottom:5px;">少年的秘密日记</p>
+							<p class="color-3a4a5a font-12">主演：暂无</p>
+						</div>
+					</li>
+				<!--===== 7===== -->
+				<li>
+						<div>
+							<div class="qq">
+								<p>快乐大本营</p>
+								<p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							</div>
+							<div>
+									<img src="../img/video/快乐大本营.jpg">
+							</div>
+						</div>
+						<div>
+							<p class="margin-bottom:5px;">快乐大本营</p>
+							<p class="color-3a4a5a font-12">主演：何炅......</p>
+						</div>
+					</li>
+				<!--===== 8===== -->
+				<li>
+						<div>
+							<div class="qq">
+								<p>童言有计</p>
+								<p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							</div>
+							<div>
+									<img src="../img/video/童言有计.jpg">
+							</div>
+						</div>
+						<div>
+							<p class="margin-bottom:5px;">童言有计</p>
+							<p class="color-3a4a5a font-12">主演：撒贝宁.....</p>
+						</div>
+					</li>
+				<!--===== 9===== -->
+				<li>
+						<div>
+							<div class="qq">
+								<p>极限挑战</p>
+								<p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							</div>
+							<div>
+									<img src="../img/video/极限挑战.png">
+							</div>
+						</div>
+						<div>
+							<p class="margin-bottom:5px;">极限挑战</p>
+							<p class="color-3a4a5a font-12">主演：众星</p>
+						</div>
+					</li>
+				<!--===== 10===== -->
+				<li>
+						<div>
+							<div class="qq">
+								<p>进击的巨人</p>
+								<p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							</div>
+							<div>
+									<img src="../img/video/进击的巨人.jpg">
+							</div>
+						</div>
+						<div>
+							<p class="margin-bottom:5px;">进击的巨人</p>
+							<p class="color-3a4a5a font-12">主演：暂无</p>
+						</div>
+					</li>
+				<!--===== 11===== -->
+				<li>
+						<div>
+							<div class="qq">
+								<p>我家那小子</p>
+								<p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							</div>
+							<div>
+									<img src="../img/video/我家那小子.jpg">
+							</div>
+						</div>
+						<div>
+							<p class="margin-bottom:5px;">我家那小子</p>
+							<p class="color-3a4a5a font-12">主演：暂无</p>
+						</div>
+					</li>
+				<!--===== 12===== -->
+				<li>
+						<div>
+							<div class="qq">
+								<p>非你莫属</p>
+								<p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							</div>
+							<div>
+									<img src="../img/video/非你莫属.jpg">
+							</div>
+						</div>
+						<div>
+							<p class="margin-bottom:5px;">非你莫属</p>
+							<p class="color-3a4a5a font-12">主演：未知</p>
+						</div>
+					</li>
+			</ul>
+			<div></div>
+		</div>
+	</div>
+	<!--  热门电影推荐-->
+	<div class="container">
+			<!-- 导航 -->
+		   <div class="first nav-border">
+			   <h2 class="back2">
+				   热门电影推荐
+			   </h2>
+			   <ul>
+				   <li>动作片</li>
+				   <li>爱情片</li>
+				   <li>喜剧片</li>
+				   <li>科幻片</li>
+				   <li>恐怖片</li>
+				   <li>剧情片</li>
+				   <li>战争片</li>
+			   </ul>
+			   <div class="pipi"><p>皮皮搞笑影视-皮皮搞笑电影网</p></div>
+			   <div class="genduo color-3a4a5a">
+					<p >更多</p>
+			   </div>
+		   </div>
+		   <!-- 影片列表 -->
+		   <div class="last">
+			   <ul>
+				   <!--===== 1===== -->
+				   <li>
+					   <div>
+						   <div class="qq">
+							   <p>BOOK OF EVIL</p>
+							   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+						   </div>
+						   <div>
+								   <img src="../img/video/book.jpg">
+						   </div>
+					   </div>
+					   <div>
+						   <p class="margin-bottom:5px;">BOOK OF EVIL</p>
+						   <p class="color-3a4a5a font-12">主演:</p>
+					   </div>
+				   </li>
+				   <!--=====2===== -->
+				   <li>
+						   <div>
+							   <div class="qq">
+								   <p>高达战士</p>
+								   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							   </div>
+							   <div>
+									   <img src="../img/video/高达战士.jpg">
+							   </div>
+						   </div>
+						   <div>
+							   <p class="margin-bottom:5px;">高达战士</p>
+							   <p class="color-3a4a5a font-12">主演：....</p>
+						   </div>
+					   </li>
+				   <!--=====3===== -->
+				   <li>
+						   <div>
+							   <div class="qq">
+								   <p>HD高清</p>
+								   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							   </div>
+							   <div>
+									   <img src="../img/video/查理班克斯.png">
+							   </div>
+						   </div>
+						   <div>
+							   <p class="margin-bottom:5px;">查理班克斯....</p>
+							   <p class="color-3a4a5a font-12">主演：.....</p>
+						   </div>
+					   </li>
+				   <!--===== 4===== -->
+				   <li>
+						   <div>
+							   <div class="qq">
+								   <p>我们的师傅</p>
+								   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							   </div>
+							   <div>
+									   <img src="../img/video/我们的师傅.png">
+							   </div>
+						   </div>
+						   <div>
+							   <p class="margin-bottom:5px;">我们的师傅</p>
+							   <p class="color-3a4a5a font-12">主演：暂无</p>
+						   </div>
+					   </li>
+				   <!--===== 5===== -->
+				   <li>
+						   <div>
+							   <div class="qq">
+								   <p>密室大逃脱</p>
+								   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							   </div>
+							   <div>
+									   <img src="../img/video/暂无图片.png">
+							   </div>
+						   </div>
+						   <div>
+							   <p class="margin-bottom:5px;">百变达人</p>
+							   <p class="color-3a4a5a font-12">主演：潘玮柏 刘宇宇侯佩琴</p>
+						   </div>
+					   </li>
+				   <!--===== 6===== -->
+				   <li>
+						   <div>
+							   <div class="qq">
+								   <p>少年的秘密</p>
+								   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							   </div>
+							   <div>
+									   <img src="../img/video/少年的秘密日记.jpg">
+							   </div>
+						   </div>
+						   <div>
+							   <p class="margin-bottom:5px;">少年的秘密日记</p>
+							   <p class="color-3a4a5a font-12">主演：暂无</p>
+						   </div>
+					   </li>
+				   <!--===== 7===== -->
+				   <li>
+						   <div>
+							   <div class="qq">
+								   <p>快乐大本营</p>
+								   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							   </div>
+							   <div>
+									   <img src="../img/video/快乐大本营.jpg">
+							   </div>
+						   </div>
+						   <div>
+							   <p class="margin-bottom:5px;">快乐大本营</p>
+							   <p class="color-3a4a5a font-12">主演：何炅......</p>
+						   </div>
+					   </li>
+				   <!--===== 8===== -->
+				   <li>
+						   <div>
+							   <div class="qq">
+								   <p>童言有计</p>
+								   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							   </div>
+							   <div>
+									   <img src="../img/video/童言有计.jpg">
+							   </div>
+						   </div>
+						   <div>
+							   <p class="margin-bottom:5px;">童言有计</p>
+							   <p class="color-3a4a5a font-12">主演：撒贝宁.....</p>
+						   </div>
+					   </li>
+				   <!--===== 9===== -->
+				   <li>
+						   <div>
+							   <div class="qq">
+								   <p>极限挑战</p>
+								   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							   </div>
+							   <div>
+									   <img src="../img/video/极限挑战.png">
+							   </div>
+						   </div>
+						   <div>
+							   <p class="margin-bottom:5px;">极限挑战</p>
+							   <p class="color-3a4a5a font-12">主演：众星</p>
+						   </div>
+					   </li>
+				   <!--===== 10===== -->
+				   <li>
+						   <div>
+							   <div class="qq">
+								   <p>进击的巨人</p>
+								   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							   </div>
+							   <div>
+									   <img src="../img/video/进击的巨人.jpg">
+							   </div>
+						   </div>
+						   <div>
+							   <p class="margin-bottom:5px;">进击的巨人</p>
+							   <p class="color-3a4a5a font-12">主演：暂无</p>
+						   </div>
+					   </li>
+				   <!--===== 11===== -->
+				   <li>
+						   <div>
+							   <div class="qq">
+								   <p>我家那小子</p>
+								   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							   </div>
+							   <div>
+									   <img src="../img/video/我家那小子.jpg">
+							   </div>
+						   </div>
+						   <div>
+							   <p class="margin-bottom:5px;">我家那小子</p>
+							   <p class="color-3a4a5a font-12">主演：暂无</p>
+						   </div>
+					   </li>
+				   <!--===== 12===== -->
+				   <li>
+						   <div>
+							   <div class="qq">
+								   <p>非你莫属</p>
+								   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+							   </div>
+							   <div>
+									   <img src="../img/video/非你莫属.jpg">
+							   </div>
+						   </div>
+						   <div>
+							   <p class="margin-bottom:5px;">非你莫属</p>
+							   <p class="color-3a4a5a font-12">主演：未知</p>
+						   </div>
+					   </li>
+			   </ul>
+			   <div></div>
+		   </div>
+	   </div>
+	<!-- 󰂑 热门连续剧推荐 -->
+	<div class="container">
+		<!-- 导航 -->
+	   <div class="first nav-border">
+		   <h2 class="back3">
+			   热门连续剧推荐
+		   </h2>
+		   <ul>
+			   <li>国产剧</li>
+			   <li>港台剧</li>
+			   <li>日韩剧</li>
+			   <li>欧美剧</li>
+			   <li>悬疑片</li>
+		   </ul>
+		   <div class="pipi"><p>皮皮搞笑影视-皮皮搞笑电影网</p></div>
+		   <div class="genduo color-3a4a5a">
+				<p >更多</p>
+		   </div>
+	   </div>
+	   <!-- 影片列表 -->
+	   <div class="last">
+		   <ul>
+			   <!--===== 1===== -->
+			   <li>
+				   <div>
+					   <div class="qq">
+						   <p>更新至2集</p>
+						   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					   </div>
+					   <div>
+							   <img src="../img/video/德雷尔一家.png">
+					   </div>
+				   </div>
+				   <div>
+					   <p class="margin-bottom:5px;">德雷尔一家</p>
+					   <p class="color-3a4a5a font-12">主演:德雷尔一家</p>
+				   </div>
+			   </li>
+			   <!--=====2===== -->
+			   <li>
+					   <div>
+						   <div class="qq">
+							   <p>更新至52集</p>
+							   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+						   </div>
+						   <div>
+								   <img src="../img/video/暂无图片.png">
+						   </div>
+					   </div>
+					   <div>
+						   <p class="margin-bottom:5px;">浙版西游记</p>
+						   <p class="color-3a4a5a font-12">主演：....</p>
+					   </div>
+				   </li>
+			   <!--=====3===== -->
+			   <li>
+					   <div>
+						   <div class="qq">
+							   <p>完结</p>
+							   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+						   </div>
+						   <div>
+								   <img src="../img/video/暂无图片.png">
+						   </div>
+					   </div>
+					   <div>
+						   <p class="margin-bottom:5px;">金装四大才子....</p>
+						   <p class="color-3a4a5a font-12">主演：.....</p>
+					   </div>
+				   </li>
+			   <!--===== 4===== -->
+			   <li>
+					   <div>
+						   <div class="qq">
+							   <p>更新至30集</p>
+							   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+						   </div>
+						   <div>
+								   <img src="../img/video/暂无图片.png">
+						   </div>
+					   </div>
+					   <div>
+						   <p class="margin-bottom:5px;">我爱我夫我爱子</p>
+						   <p class="color-3a4a5a font-12">主演：暂无</p>
+					   </div>
+				   </li>
+			   <!--===== 5===== -->
+			   <li>
+					   <div>
+						   <div class="qq">
+							   <p>更新至36集</p>
+							   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+						   </div>
+						   <div>
+								   <img src="../img/video/暂无图片.png">
+						   </div>
+					   </div>
+					   <div>
+						   <p class="margin-bottom:5px;">各位国民</p>
+						   <p class="color-3a4a5a font-12">主演：潘玮柏 刘宇宇侯佩琴</p>
+					   </div>
+				   </li>
+			   <!--===== 6===== -->
+			   <li>
+					   <div>
+						   <div class="qq">
+							   <p>完结</p>
+							   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+						   </div>
+						   <div>
+								   <img src="../img/video/暂无图片.png">
+						   </div>
+					   </div>
+					   <div>
+						   <p class="margin-bottom:5px;">陀枪师姐第二部国语</p>
+						   <p class="color-3a4a5a font-12">主演：暂无</p>
+					   </div>
+				   </li>
+			   <!--===== 7===== -->
+			   <li>
+					   <div>
+						   <div class="qq">
+							   <p>25集全</p>
+							   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+						   </div>
+						   <div>
+								   <img src="../img/video/铁血保镖.jpg">
+						   </div>
+					   </div>
+					   <div>
+						   <p class="margin-bottom:5px;">铁血保镖国语</p>
+						   <p class="color-3a4a5a font-12">主演：何炅......</p>
+					   </div>
+				   </li>
+			   <!--===== 8===== -->
+			   <li>
+					   <div>
+						   <div class="qq">
+							   <p>12集全</p>
+							   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+						   </div>
+						   <div>
+								   <img src="../img/video/美国恐怖故事.jpg">
+						   </div>
+					   </div>
+					   <div>
+						   <p class="margin-bottom:5px;">美国恐怖故事</p>
+						   <p class="color-3a4a5a font-12">主演：撒贝宁.....</p>
+					   </div>
+				   </li>
+			   <!--===== 9===== -->
+			   <li>
+					   <div>
+						   <div class="qq">
+							   <p>完结</p>
+							   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+						   </div>
+						   <div>
+								   <img src="../img/video/暂无图片.png">
+						   </div>
+					   </div>
+					   <div>
+						   <p class="margin-bottom:5px;">阖府统清</p>
+						   <p class="color-3a4a5a font-12">主演：众星</p>
+					   </div>
+				   </li>
+			   <!--===== 10===== -->
+			   <li>
+					   <div>
+						   <div class="qq">
+							   <p>更新至34集</p>
+							   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+						   </div>
+						   <div>
+								   <img src="../img/video/暂无图片.png">
+						   </div>
+					   </div>
+					   <div>
+						   <p class="margin-bottom:5px;">大浴堂</p>
+						   <p class="color-3a4a5a font-12">主演：暂无</p>
+					   </div>
+				   </li>
+			   <!--===== 11===== -->
+			   <li>
+					   <div>
+						   <div class="qq">
+							   <p>更新至1集</p>
+							   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+						   </div>
+						   <div>
+								   <img src="../img/video/杀死伊芙.png">
+						   </div>
+					   </div>
+					   <div>
+						   <p class="margin-bottom:5px;">杀死伊芙</p>
+						   <p class="color-3a4a5a font-12">主演：暂无</p>
+					   </div>
+				   </li>
+			   <!--===== 12===== -->
+			   <li>
+					   <div>
+						   <div class="qq">
+							   <p>23集全</p>
+							   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+						   </div>
+						   <div>
+								   <img src="../img/video/暂无图片.png">
+						   </div>
+					   </div>
+					   <div>
+						   <p class="margin-bottom:5px;">犯罪心理第二季</p>
+						   <p class="color-3a4a5a font-12">主演：未知</p>
+					   </div>
+				   </li>
+		   </ul>
+		   <div></div>
+	   </div>
+	   
+   </div> 
+   <!-- 热门综艺推荐 --> 
+   <div class="container">
+	<!-- 导航 -->
+   <div class="first nav-border">
+	   <h2 class="back4">
+		   热门综艺推荐
+	   </h2>
+	   <ul>
+		   <li>灾难片</li>
+	   </ul>
+	   <div class="pipi"><p>皮皮搞笑影视-皮皮搞笑电影网</p></div>
+	   <div class="genduo color-3a4a5a">
+			<p >更多</p>
+	   </div>
+   </div>
+   <!-- 影片列表 -->
+   <div class="last">
+	   <ul>
+		   <!--===== 1===== -->
+		   <li>
+			   <div>
+				   <div class="qq">
+					   <p>20190112期</p>
+					   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+				   </div>
+				   <div>
+						   <img src="../img/video/暂无图片.png">
+				   </div>
+			   </div>
+			   <div>
+				   <p class="margin-bottom:5px;">金歌劲曲</p>
+				   <p class="color-3a4a5a font-12">主演:。。。。</p>
+			   </div>
+		   </li>
+		   <!--=====2===== -->
+		   <li>
+				   <div>
+					   <div class="qq">
+						   <p>更新至1集</p>
+						   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					   </div>
+					   <div>
+							   <img src="../img/video/我中国少年.png">
+					   </div>
+				   </div>
+				   <div>
+					   <p class="margin-bottom:5px;">我中国少年</p>
+					   <p class="color-3a4a5a font-12">主演：....</p>
+				   </div>
+			   </li>
+		   <!--=====3===== -->
+		   <li>
+				   <div>
+					   <div class="qq">
+						   <p>20190528期</p>
+						   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					   </div>
+					   <div>
+							   <img src="../img/video/变形记.png">
+					   </div>
+				   </div>
+				   <div>
+					   <p class="margin-bottom:5px;">变形记第十八季</p>
+					   <p class="color-3a4a5a font-12">主演：真香王境泽</p>
+				   </div>
+			   </li>
+		   <!--===== 4===== -->
+		   <li>
+				   <div>
+					   <div class="qq">
+						   <p>120190205期</p>
+						   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					   </div>
+					   <div>
+							   <img src="../img/video/中国诗歌大会.jpg">
+					   </div>
+				   </div>
+				   <div>
+					   <p class="margin-bottom:5px;">中国诗歌大会第四季</p>
+					   <p class="color-3a4a5a font-12">主演：暂无</p>
+				   </div>
+			   </li>
+		   <!--===== 5===== -->
+		   <li>
+				   <div>
+					   <div class="qq">
+						   <p>更新至2019-01-12</p>
+						   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					   </div>
+					   <div>
+							   <img src="../img/video/暂无图片.png">
+					   </div>
+				   </div>
+				   <div>
+					   <p class="margin-bottom:5px;">东方寻宝2018年</p>
+					   <p class="color-3a4a5a font-12">主演：潘玮柏 刘宇宇侯佩琴</p>
+				   </div>
+			   </li>
+		   <!--===== 6===== -->
+		   <li>
+				   <div>
+					   <div class="qq">
+						   <p>2018期</p>
+						   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					   </div>
+					   <div>
+							   <img src="../img/video/暂无图片.png">
+					   </div>
+				   </div>
+				   <div>
+					   <p class="margin-bottom:5px;">新娱乐在线2018期</p>
+					   <p class="color-3a4a5a font-12">主演：暂无</p>
+				   </div>
+			   </li>
+		   <!--===== 7===== -->
+		   <li>
+				   <div>
+					   <div class="qq">
+						   <p>更新至1集</p>
+						   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					   </div>
+					   <div>
+							   <img src="../img/video/假唱大比拼.png">
+					   </div>
+				   </div>
+				   <div>
+					   <p class="margin-bottom:5px;">假唱大比拼</p>
+					   <p class="color-3a4a5a font-12">主演：何炅......</p>
+				   </div>
+			   </li>
+		   <!--===== 8===== -->
+		   <li>
+				   <div>
+					   <div class="qq">
+						   <p>2018期</p>
+						   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					   </div>
+					   <div>
+							   <img src="../img/video/暂无图片.png">
+					   </div>
+				   </div>
+				   <div>
+					   <p class="margin-bottom:5px;">河南脚斗士  2018期</p>
+					   <p class="color-3a4a5a font-12">主演：</p>
+				   </div>
+			   </li>
+		   <!--===== 9===== -->
+		   <li>
+				   <div>
+					   <div class="qq">
+						   <p>完结</p>
+						   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					   </div>
+					   <div>
+							   <img src="../img/video/暂无图片.png">
+					   </div>
+				   </div>
+				   <div>
+					   <p class="margin-bottom:5px;">创意中国 第二季 2018年 </p>
+					   <p class="color-3a4a5a font-12">主演：众星</p>
+				   </div>
+			   </li>
+		   <!--===== 10===== -->
+		   <li>
+				   <div>
+					   <div class="qq">
+						   <p>20190222期</p>
+						   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					   </div>
+					   <div>
+							   <img src="../img/video/摩登家族.png">
+					   </div>
+				   </div>
+				   <div>
+					   <p class="margin-bottom:5px;">摩登家族</p>
+					   <p class="color-3a4a5a font-12">主演：暂无</p>
+				   </div>
+			   </li>
+		   <!--===== 11===== -->
+		   <li>
+				   <div>
+					   <div class="qq">
+						   <p>201821117期</p>
+						   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					   </div>
+					   <div>
+							   <img src="../img/video/大揭秘.jpg">
+					   </div>
+				   </div>
+				   <div>
+					   <p class="margin-bottom:5px;">大揭秘</p>
+					   <p class="color-3a4a5a font-12">主演：暂无</p>
+				   </div>
+			   </li>
+		   <!--===== 12===== -->
+		   <li>
+				   <div>
+					   <div class="qq">
+						   <p>更新至2019-01-10</p>
+						   <p>剧情：介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					   </div>
+					   <div>
+							   <img src="../img/video/暂无图片.png">
+					   </div>
+				   </div>
+				   <div>
+					   <p class="margin-bottom:5px;">你会怎么做 2018年</p>
+					   <p class="color-3a4a5a font-12">主演：未知</p>
+				   </div>
+			   </li>
+	   </ul>
+	   <div></div>
+   </div>
+   
+</div> 
+	<!-- 热门动漫推荐 重复代码不写太多；-->
+	<!-- 引入页脚 -->
+	<div class="container">
+		<iframe src="./footer.html" frameborder="0" class="footer"></iframe>
+	</div>
+	<!-- 用margin-left轮播 连点切换时有缺陷 -->
+	<script>
+		//查修改
+			var showUl=document.querySelector("[class=showImg]")
+			//轮播图位移函数
+			//用一个变量记录显示的是第几张图片
+			var i=0;
+			var show=function(){
+				//记次和显示的是第几张图片 次数加一等于显示的是第几张图片
+				i++
+				//当播放到第五张时清空播放次数 并清除过渡效果 待过渡时间结束后瞬间回到第一张
+				if(i==4){
+					//等过渡结束后再跳到第一张
+					setTimeout(()=>{
+						i=0;
+						showUl.style.transition="none";
+						showUl.style.marginLeft=0;
+						setTimeout(()=>{
+							showUl.style.transition="all .5s linear";
+						},10)
+					},500)
+				}
+				//计算图片的偏移量;
+				var a=i*-1200+"px";
+				//使图片偏移 	
+				showUl.style.marginLeft=a;
+				}
+			//用计时器多次调用show
+			//但是当当鼠标移入轮播图时停止计时器
+			//查触发 
+			var showTime=setInterval(show,3000);
+			
+			//上一张
+			function show1(){
+				i++
+				if(i==4){
+					i=0
+					show();
+				}
+			}
+			//下一张
+			function show2(){
+				show();
+			}
+			//位置指示器
+			//查触发
+			var imgIdexs=document.querySelectorAll("[class=showIdex]>li")
+			console.log(imgIdex);
+				for(var imgIdex=0;imgIdex<imgIdexs.length;imgIdex++){
+					imgIdexs[imgIdex].onclick=function(){
+						for(var Img2 of imgIdexs){
+							Img2.style.backgroundColor="#fff";
+							i=imgIdex-1;
+							if(imdex=0){i=1}
+							show();
+						}
+						this.style.backgroundColor="#00f";
+					}
+				}
+	</script>
+	
+	<!-- 用透明度试试 -->
+	<script>
+		//整体思路 用
+	</script>
+</body>
+</html>
