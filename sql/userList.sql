@@ -1,0 +1,12 @@
+set names utf8;
+use tv98k;
+insert into userlist values(null,"东东",123456,1,"1.jpg",13355555551);
+insert into userlist values(null,"西西",123456,0,"1.jpg",13355555552);
+insert into userlist values(null,"楠楠",123456,0,"1.jpg",13355555553);
+insert into userlist values(null,"贝贝",123456,0,"1.jpg",13355555554);
+insert into userlist values(null,"尚尚",123456,1,"1.jpg",13355555555);
+insert into userlist values(null,"夏夏",123456,0,"1.jpg",13355555556);
+insert into userlist values(null,"佐佐",123456,1,"1.jpg",13355555557);
+insert into userlist values(null,"悠悠",123456,0,"1.jpg",13355555558);
+insert into userlist values(null,"钉钉",123456,1,"1.jpg",13355555559);
+insert into userlist values(null,"小爱",123456,0,"1.jpg",13355555550);

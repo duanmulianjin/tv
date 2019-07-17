@@ -1,0 +1,157 @@
+*{margin:0;padding:0;}
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#333;
+    text-align:left;
+    background-color:#f4f4f4;
+    font-family: 微软雅黑, 'Microsoft YaHei';
+}
+a {text-decoration:none;color:#3a4a5a;}
+a:hover{text-decoration:underline;}
+
+/*字体颜色*/
+.color-3a4a5a{color:#3a4a5a;}
+/*字体大小*/
+.font-12{font-size: 12px;}
+.w-100{width:100%;}
+.container{
+    width:1200px;
+    margin:0 100px;
+    position: relative;
+    overflow: hidden;
+    margin:0 auto;
+}
+li{list-style: none;}
+.nav{
+    width:100%;
+    height:37px;
+    display: flex;
+    border-bottom: 1px solid #999;
+}
+.nav li:first-child{
+    color:#390;
+    margin-left: 30px;
+   
+}
+.nav li{
+    margin-left: 15px;
+    line-height: 37px;
+}
+.detail-box{
+    display: flex;
+    margin-top:15px;
+}
+.detail-box>div:nth-child(1){
+    text-align: center;
+    width:237px;
+    padding: 4px;
+    border-right: 5px double #999;
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+    border-bottom: 5px double #999;
+}
+.detail-box>div:nth-child(1) img{
+    width:100%;
+}
+.detail-box>div:nth-child(2){
+    padding-left: 15px;
+    width:615px; 
+}
+.detail-box>div:nth-child(3){
+    width:300px;
+    margin-top: 30px;
+}
+.detail-box p{
+    font-size: 16px;
+    width:100%;
+    margin-top:14px;
+}
+.detail-box p:last-child{
+    color:#f00;
+}
+.detail-box span{
+    width:280px;
+    display: inline-block;    white-space: nowrap;
+    overflow: hidden;
+}
+#player{
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    
+}
+#player>div:first-child{
+    height: 37px;
+    line-height: 37px;
+    border: 1px solid #fff;
+    border-left:15px solid #390;
+    border-right:15px solid #390;
+    margin-bottom: 15px;
+}
+#player>div>div{
+    width:0px;
+    height:0px;
+    display: inline-block;
+    border:5px solid #fff;
+    border-left: 5px solid #666;
+}
+#player>div>span{color:#00a0e9}
+#player>div:last-child{
+    height: 55px;
+}
+#player button{
+    width:  84px;
+    height: 30px;
+    background-color:#6ccdee;
+    border:0;
+    border-radius: 1px;
+    margin-left: 30px;
+}
+#login{
+    height: 37px;
+    margin-top:15px;
+    border: 1px solid #fff;
+    border-left:15px solid #390;
+    border-right:15px solid #390;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+}
+#login>button{
+    position:fixed;
+    bottom:0;
+    left: 0;
+    width:42px;
+    height: 42px;
+    border-radius: 50%;
+    line-height: 42px;
+    color:#f00;
+    border:1px solid #f00;
+}
+.title{
+    margin-bottom: 15px;
+    color:#999;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+}
+.title>div:first-child{
+    height: 37px;
+    line-height: 37px;
+    border: 1px solid #fff;
+    border-left:15px solid #390;
+    border-right:15px solid #390;
+    margin-bottom: 15px;
+}
+.title>div>div{
+    width:0px;
+    height:0px;
+    display: inline-block;
+    border:5px solid #fff;
+    border-left: 5px solid #666;
+}
+.title p{
+    padding: 15px;
+}
+
+

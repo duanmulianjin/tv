@@ -1,0 +1,9 @@
+.footer_text{
+    color: #fff;
+    width:100%;
+    padding:5px;
+    border-top:5px solid #f00;
+    background-color:#1e1e1e;
+}
+.footer_text>p{text-align:center;}
+.footer_text>p:first-child{margin-top:20px;margin-bottom:5px;}
